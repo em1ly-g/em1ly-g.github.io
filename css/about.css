@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
+
+
+#about_text {
+
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 10%;
+}
+
+
+#personal-photo{
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 70%;
+}
+
+#about-content{
+  text-align: center;
+}

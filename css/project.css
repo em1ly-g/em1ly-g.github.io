@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
+
+
+#project_text{
+    text-align:center;
+    font-size: 20px;
+}
+
+#project_text{
+    text-align:center;
+    font-size: 20px;
+}
+
+.project_description{
+  text-align: center;
+}
+
+td {
+  padding: 1% 5%;
+}
+
+.project_description h4{
+  font-family: 'Black Ops One', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+.project_description .date{
+  font-size: 20px;
+}
+

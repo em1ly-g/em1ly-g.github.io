@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
 
 /* These styles override everything else */ 
 
@@ -10,7 +13,6 @@ body{
 }
 
 .nav_bar_home {
-    
     width: 100%;
     justify-content: space-between;
     box-align: center;
@@ -42,15 +44,13 @@ body{
 
 
 .nav_links li a:hover {
-    background-color: #B80C09;
+    background-color: #C33C54;
 }
 
 
-#logo_main_page{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%
+h1 {
+    text-align: center;
+    margin-top: 20%;
 }
 
 h1{
@@ -60,6 +60,12 @@ h1{
     color: #ffffff;
     font-weight: 900;
     line-height: 0%;
+}
+
+#construction-note{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 100%;
 }
 
 

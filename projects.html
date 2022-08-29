@@ -4,29 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style_subpages.css">
+    <title>EGillott</title>
+    <link rel="stylesheet" href="css/subpage_default.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
 </head>
 <body>
     <div id="nav_bar">
         <nav>
             <ul  class="nav_links">
-                <li id="title">Projects</li>
-                <li><a href="file:///C:/Users/user/OneDrive/Documents/Programming%20thins/Website/Website/My-website/index.html#">Home</a></li>
-                <li><a href="file:///C:/Users/user/OneDrive/Documents/Programming%20thins/Website/Website/My-website/contact.html">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Credit</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./credit.html">Credit</a></li>
             </ul>
         </nav>
     </div>
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra nunc at risus auctor porta. Quisque blandit mauris elit. Pellentesque eu risus sagittis, condimentum turpis vel, tristique tortor. Vestibulum volutpat aliquam aliquam. Maecenas erat leo, condimentum eu neque a, porta tempus libero. Nunc sit amet suscipit urna. Maecenas nec ex auctor, facilisis enim ac, pharetra nibh. Sed auctor lectus quam. Sed dignissim diam urna, non pellentesque felis ornare vulputate. Duis ut lectus nec leo mattis venenatis. Donec euismod consequat diam, gravida convallis ipsum placerat a. Sed odio velit, condimentum ac enim vitae, rutrum congue ante. Nulla sed porta nisi. Etiam bibendum accumsan augue, eget scelerisque libero aliquet at. Nunc commodo lectus a nulla venenatis, sit amet dapibus tellus faucibus. In iaculis dolor massa, sed pretium nibh aliquet a.
+    <h1 class="page-title"> Projects </h1>
+
+    <p id="project_text">
+      This website is an example of a personal project I took on. <br>
+      Use the buttons below to explore both personal projects and projects done throught my degree.
     </p>
 
-    <div id="project_buttons">
-        <button> Personal</button>
-        <button> University</button>
-    </div>
+
+
+
+    <table>
+      <tr>
+        <td class="project_description">
+          <h4>Matter antimatter asymmetry essay</h4>
+          <p class="date">Jan 2018</p>
+          <p class="description"> 
+            Competition winning essay on matter antimatter asymmetry.  
+            
+          </p>
+          <a href="./projects/matter_antimatter_essay.pdf"><button>View</button></a>
+        </td>
+        <td class="project_description">
+          <h4>Forced Oscillations Lab Report</h4>
+          <p class="date">Oct 2019 </p>
+          <p class="description">
+            Lab report investigating resonance in a phosphor-bronze bar.
+          </p>
+          <a href="./projects/ForcedOscillationsReport.pdf"><button>View</button></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="project_description">
+            <h4>Doppler effect</h4>
+            <p class="date">2020</p>
+            <p class="description"> 
+              First programming assignment. Python was used to analyse data about a star to investigate its motion.
+            </p>
+            <a href="./projects/doppler_assignment.py"><button>View</button></a>
+        </td>
+        <td class="project_description">
+            <h4>Properties of gamma radiation Lab</h4>
+            <p class="date">March 2021</p>
+            <p class="description"> 
+              Lab report on an experiment where a scintillation detector was used to find the strength
+              of a radioactive sorce and study the attenuation through various materials.
+              
+            </p>
+          <a href="./projects/PropertiesOfGammaRaysReport.pdf"><button>View</button></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="project_description">
+            <h4>Harmonic motion</h4>
+            <p class="date">2021</p>
+            <p class="description"> 
+              A Jupyter notebook where various methods of numerical integration were investigated. 
+              The best method was used to study a resonance in a driven simple harmonic system.
+              
+            </p>
+            <a href="./projects/project_2.ipynb"><button>View</button></a>     
+        </td>
+        <td class="project_description">
+            <h4>Monte Carlo simulation</h4>
+            <p class="date">2021</p>
+            <p class="description"> 
+              Using Jupyter notebook, a simulation of thermal neutrons incident on 
+              various materials was developed. Firstly, algorithms for generating random 
+              numbers was investigated. Then a Monte Carlo simulation was created to determine 
+              the best material to act as a shield.
+              
+            </p>
+          <a href="./projects/Project_3.ipynb"><button>View</button></a> 
+        </td>
+      </tr>
+      <tr>
+        <td class="project_description">
+          <h4>Quantum Optics Lab</h4>
+          <p class="date">May 2022</p>
+          <p class="description"> 
+            Lab report on an experiment where a classical analogue to the BB84 
+            quantum encription algroithm was studied.
+            
+          </p>
+          <a href="./projects/QuantumCryptography.pdf"><button>View</button></a>
+        </td>
+      </tr>
+    </table>
+
+
+    <footer>
+      <div class="footer-content">
+          <h3>Emily Gillott</h3>
+          <p>
+              If you encounter any issues with my website please contact me by email.
+          </p>
+          <ul class="socials">
+            <li><a href="mailto: emily.gillott2@gmai.com"><i class="bi-envelope-fill"></i></a></li>
+            <li><a href="https://www.linkedin.com/feed/"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://github.com/em1ly-g"><i class="bi bi-github"></i></a></li>
+        </ul>
+              
+      </div>
+      <div class="footer-bottom">
+          <p> Copyright &copy; 2022 Emily Gillott</p>
+      </div>
+   </footer>
+
+
 </body>
 </html>
