@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
 
 body {
     background-color: #020122;
     color: #ffffff;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Kanit', sans-serif;
 }
 
 .nav_bar {
@@ -43,19 +48,100 @@ body {
     background-color: #B80C09;
 }
 
-/* ----------- Text at top of page --------------*/
-.main_text {
-    padding-left: 50px;
-    font-family: 'Poppins', sans-serif;
+.page-title{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 80px;
+}
+
+/* ----------- Css for the about page --------------*/
+#about_text {
+
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+#about-container{
+    width:90%;
+}
+
+#personal-photo{
+    top: 10%;
+    left: 10%
+}
+
+#about-content{
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 
 /* ---------- Css specific for Projects page -------------*/
-
-.project_buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#project_text{
+    text-align:center;
 }
 
+#container-left{
+    position: relative;
+    left: 20%;
+  }
+  
+  #container-right{
+    position: relative;
+    left: 40%;
+  }
+  
+  .outer{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .inner{
+    position: absolute;
+    top: 15px;
+    left: 8px;
+  }
+  
+  .out-hex{
+    font-size: 350px;
+    color: #ffffff;
+  }
+  
+  .in-hex{
+    font-size: 330px;
+    color: #020122;
+  }
+
+  .in-hex:hover{
+    color: #E0B0D5;
+  }
+/* ---------- Css specific for Contact page -------------*/
+
+#contact-container ul{
+  list-style: none;
+  position: relative;
+}
+
+.icons{
+  display: inline-block;
+  
+}
+
+#contact_text{
+  text-align: center;
+}
+
+#email_icon{
+  height: 50px;
+}
+
+/* ---------- Css specific for Credit page -------------*/
+
+#thanks{
+    text-align: center;
+    /*font-family: 'Alumni Sans Pinstripe', sans-serif;*/
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
