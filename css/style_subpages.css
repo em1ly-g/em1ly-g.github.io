@@ -69,9 +69,9 @@ body {
 }
 
 #personal-photo{
-    float: left;
-    margin: 20px;
-    margin-left: 0px;
+    float: right;
+    margin-right: 0px;
+    margin-left: 20px;
     margin-top: 0px;
 }
 
