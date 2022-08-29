@@ -54,20 +54,25 @@ body {
     font-size: 80px;
 }
 
+.subtitle{
+
+  font-family: 'Black Ops One', cursive;
+  
+}
+
 /* ----------- Css for the about page --------------*/
 #about_text {
 
     font-family: 'Kanit', sans-serif;
-    text-align: center;
-}
-
-#about-container{
-    width:90%;
+    text-align: justify;
+    font-size: 20px;
 }
 
 #personal-photo{
-    top: 10%;
-    left: 10%
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 #about-content{
