@@ -57,6 +57,7 @@ body {
 .subtitle{
 
   font-family: 'Black Ops One', cursive;
+  font-size: 30px;
   
 }
 
@@ -84,6 +85,7 @@ body {
 /* ---------- Css specific for Projects page -------------*/
 #project_text{
     text-align:center;
+    font-size: 20px;
 }
 
 #container-left{
@@ -148,5 +150,5 @@ body {
     /*font-family: 'Alumni Sans Pinstripe', sans-serif;*/
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
 }
