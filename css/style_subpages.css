@@ -61,6 +61,26 @@ body {
   
 }
 
+.line{
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.icons-mini{
+  height: 30px;
+}
+#footer_contact{
+  text-align: center;
+}
+
+#contact-container-mini{
+  text-align: center;
+}
+
+#contact-container-mini ul{
+  list-style: none;
+}
 /* ----------- Css for the about page --------------*/
 #about_text {
 
@@ -87,6 +107,7 @@ body {
     text-align:center;
     font-size: 20px;
 }
+
 
 #container-left{
     position: relative;
@@ -126,21 +147,27 @@ body {
 /* ---------- Css specific for Contact page -------------*/
 
 #contact-container ul{
-  list-style: none;
-  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
-.icons{
-  display: inline-block;
-  
+#contact-container ul li{
+  display: inline;
 }
+
 
 #contact_text{
   text-align: center;
 }
 
-#email_icon{
+.icons{
   height: 50px;
+}
+
+.icons:hover{
+  height: 70px;
 }
 
 /* ---------- Css specific for Credit page -------------*/
