@@ -92,7 +92,7 @@ body {
 #personal-photo{
     float: right;
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 70px;
     margin-top: 0px;
 }
 
@@ -108,42 +108,44 @@ body {
     font-size: 20px;
 }
 
+.project_column{
+  float: left;
+  width: 35%;
+  margin: 5%;
+  text-align: center;
+}
 
-#container-left{
-    position: relative;
-    left: 20%;
-  }
-  
-  #container-right{
-    position: relative;
-    left: 40%;
-  }
-  
-  .outer{
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .inner{
-    position: absolute;
-    top: 15px;
-    left: 8px;
-  }
-  
-  .out-hex{
-    font-size: 350px;
-    color: #ffffff;
-  }
-  
-  .in-hex{
-    font-size: 330px;
-    color: #020122;
-  }
+.projects_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  .in-hex:hover{
-    color: #E0B0D5;
-  }
+.project_description h4{
+  font-family: 'Black Ops One', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+button{
+  padding: 15px 32px;
+  border-color: white;
+  background-color: #020122;
+}
+
+button:hover{
+  background-color: #B80C09
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px
+}
+
+
+
 /* ---------- Css specific for Contact page -------------*/
 
 #contact-container ul{
