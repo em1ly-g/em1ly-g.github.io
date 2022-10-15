@@ -32,7 +32,7 @@ body {
 .nav_links li {
     display: inline-block;
     font-family: 'Black Ops One', cursive;
-    font-size: 150%;
+    font-size: 200%;
     padding: 1%;
     padding-top: 0;
 }
@@ -108,17 +108,12 @@ body {
     font-size: 20px;
 }
 
-.project_column{
-  float: left;
-  width: 35%;
-  margin: 5%;
+.project_description{
   text-align: center;
 }
 
-.projects_row:after{
-  content: "";
-  display: table;
-  clear: both;
+td {
+  padding: 1% 5%;
 }
 
 .project_description h4{
@@ -131,6 +126,9 @@ button{
   padding: 15px 32px;
   border-color: white;
   background-color: #020122;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
 }
 
 button:hover{
@@ -142,6 +140,10 @@ button a {
   color: white;
   font-family: 'Kanit', sans-serif;
   font-size: 20px
+}
+
+.project_description .date{
+  font-size: 20px;
 }
 
 
