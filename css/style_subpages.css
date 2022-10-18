@@ -6,8 +6,7 @@
 body {
     background-color: #020122;
     color: #ffffff;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -16,7 +15,7 @@ body {
     justify-content: space-between;
     box-align: right;
     padding-top: 5%;
-    float: right;
+    right: 0;
 }
 
 .nav_bar nav ul {
@@ -45,7 +44,7 @@ body {
 
 
 .nav_links li a:hover {
-    background-color: #B80C09;
+    background-color: #C33C54;
 }
 
 .page-title{
@@ -61,15 +60,85 @@ body {
   
 }
 
-.line{
-  background-color: #ffffff;
+
+
+footer{
+  clear: both;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-left:0;
+  margin-right:0;
+  background: #2A628F;
+  height: auto;
+  width: 100vw;
+  padding-top: 50px;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  color: #ffffff;
 }
 
-.icons-mini{
-  height: 30px;
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: centre;
 }
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.socials a i{
+  font-size: 1.5rem;
+}
+
+.socials a:hover{
+  color: #C33C54;
+}
+
+.footer-bottom{
+  background: #000;
+  position: relative;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+}
+
+
 #footer_contact{
   text-align: center;
 }
@@ -89,11 +158,17 @@ body {
     font-size: 20px;
 }
 
+#about-full-width{
+  text-align: centre;
+}
+
 #personal-photo{
     float: right;
-    margin-right: 0px;
-    margin-left: 70px;
+    margin-right: 70px;
+    margin-left: 50px;
     margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 50%;
 }
 
 #about-content{
@@ -132,7 +207,7 @@ button{
 }
 
 button:hover{
-  background-color: #B80C09
+  background-color: #C33C54
 }
 
 button a {
@@ -166,12 +241,29 @@ button a {
   text-align: center;
 }
 
-.icons{
-  height: 50px;
+.socials_main{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
 
-.icons:hover{
-  height: 70px;
+#socials_main li{
+  margin: 0 60px;
+}
+
+#socials_main a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#socials_main a i{
+  font-size: 5rem;
+}
+
+#socials_main a:hover{
+  color: #C33C54;
 }
 
 /* ---------- Css specific for Credit page -------------*/

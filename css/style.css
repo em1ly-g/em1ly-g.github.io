@@ -10,7 +10,6 @@ body{
 }
 
 .nav_bar_home {
-    
     width: 100%;
     justify-content: space-between;
     box-align: center;
@@ -42,7 +41,7 @@ body{
 
 
 .nav_links li a:hover {
-    background-color: #B80C09;
+    background-color: #C33C54;
 }
 
 
