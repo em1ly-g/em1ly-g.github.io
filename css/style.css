@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
 
 /* These styles override everything else */ 
 
@@ -57,6 +60,12 @@ h1{
     color: #ffffff;
     font-weight: 900;
     line-height: 0%;
+}
+
+#construction-note{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 100%;
 }
 
 
