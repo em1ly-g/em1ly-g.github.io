@@ -59,10 +59,9 @@ body {
 }
 
 .subtitle{
-
   font-family: 'Black Ops One', cursive;
   font-size: 30px;
-  
+  text-align: center;
 }
 
 /* Footer */
@@ -154,4 +153,25 @@ footer{
   
   #contact-container-mini ul{
     list-style: none;
+  }
+
+  /* Buttons */
+  button{
+    padding: 15px 32px;
+    border-color: white;
+    background-color: #020122;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+  
+  button:hover{
+    background-color: #C33C54
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px
   }

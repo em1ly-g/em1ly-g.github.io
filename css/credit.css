@@ -4,5 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Poppins:wght@100&display=swap');
 
 #thanks{
-    text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
   }
