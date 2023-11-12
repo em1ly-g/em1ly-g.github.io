@@ -1,31 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Black+Ops+One&family=Kanit:wght@500&family=Oswald:wght@500&family=Poppins');
 
+@import 'variables.css';
 
 html, body{
     height: 100%;
     margin: 0;
     padding-top: 0;
+    font-family: var(--font-main);
 }
 
 #titlePage{
     height: 100%;
     text-align: center;
-    background-color: #758e4f;
+    background-color: var(--main-colour);
     color: #ffff;
+    margin-top: 0;
 }
 
 #titleText{
     padding-top: 10%;
-    font-family: Poppins;
+    font-family: var(--font-title);
     font-size: 500%;
     font-weight: 300%;
-    background-color: #758e4f;
-}
-
-.button{
-    background-color: #f6ae2d;
+    background-color: var(--main-colour);
+    margin: 0;
 }
 
 .subtitleText{
-    font-family: Poppins;
+    font-family: var(--font-main);
 }
+
+.titleButton{
+    border: none;
+    background-color: var(--highlight-colour);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Poppins;
+    margin: 3%;
+    font-size: 100%;
+}
+

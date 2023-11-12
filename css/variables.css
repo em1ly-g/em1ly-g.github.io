@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
+
+:root{
+    --main-colour: #3A0CA3;
+    --secondary-colour: #7209B7;
+    --highlight-colour: #F72585;
+    --text1: #ffffff;
+    --text2: #000000;
+    --font-main: Poppins;
+    --font-title: Agbalumo;
+}

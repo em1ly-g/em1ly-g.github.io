@@ -1,9 +1,13 @@
+@import 'variables.css';
+
 #about{
   text-align: left;
   /*background-color: #86BBD8;*/
-  background-color: #f6ae2d;
-  margin-top: 2%;
+  margin-top: 0;
   margin-bottom: 2%;
+  height: 100%;
+  background-color: var(--secondary-colour);
+  color: var(--text1);
 }
 
 #aboutMe{
@@ -21,16 +25,31 @@
 }
 
 /*Use media query to make responsive*/
-@media screen and (max-width: 600px){
-#aboutMe, #aboutWebsite{
-  width: 100%;
-}
+@media screen and (max-width: 800px){
+  #aboutMe, #aboutWebsite{
+    width: 90%;
+    margin: 5%;
+    border: 0;
+  }
 }
 
 .subtitle{
+  font-family: var(--font-title);
+  font-size: 200%;
+  font-weight: 100;
   text-align: center;
+  color: var(--mainColour);
 }
 
 .leftText{
   text-align: left;
+}
+
+.underline{
+  display: flex;
+  justify-content: center;
+  background-color: var(--highlight-colour);
+  width: 100%;
+  height: 5px;
+  padding-top: 0;
 }
