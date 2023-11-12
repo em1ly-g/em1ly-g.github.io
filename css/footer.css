@@ -1,0 +1,5 @@
+@import 'variables.css';
+
+footer{
+    background-color: var(--main-colour);
+}

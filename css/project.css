@@ -10,6 +10,8 @@ body{
 #title{
   font-family: var(--font-title);
   font-size: 500%;
+  padding: 0;
+  margin-top: 0;
 }
 .projectCards{
   display: flex;
@@ -18,10 +20,12 @@ body{
 }
 
 .card{
-  background-color: var(--secondary-colour);
+  background-color: #B4CDED;
+  color: var(--text2);
   flex: 1 0 500px;
   box-sizing: border-box;
   margin: 1rem .25rem;
+  border-radius: 2%;
 }
 
 
@@ -41,7 +45,7 @@ body{
 
 .title{
   font-size: 2em;
-  margin: 1em;
+  margin: 1rem;
 }
 
 .description{
@@ -50,15 +54,33 @@ body{
 
 .info{
   display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+  font-size: 120%;
 }
 
 .button{
   background-color: var(--highlight-colour);
   color: var(--text2);
   float: left;
-  margin: 1em;
+  margin: 1rem;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 4%;
+  font-size: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text2)
 }
 
 .year{
   float: right;
+}
+
+.card-title{
+  margin: 1rem;
+  font-size: 200%;
+  font-weight: 500;
 }
