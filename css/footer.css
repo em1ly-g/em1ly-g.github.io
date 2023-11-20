@@ -1,5 +1,35 @@
 @import 'variables.css';
 
 footer{
+    margin-top: 0;
     background-color: var(--main-colour);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#icon-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    width: 20%;
+    align-self: center;
+    height: auto;
+}
+
+.icon{
+    height: 2em;
+    margin: 0 5px;
+}
+
+.icon img {
+    width: 100%; /* Ensure the image fills the icon container */
+    height: 100%;
+    object-fit: contain; /* Keep the aspect ratio */
+  }
+
+#footer-title{
+    font-family: --var(font-title);
+    color: var(--text1);
+    text-align: center;
 }

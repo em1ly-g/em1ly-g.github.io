@@ -5,6 +5,8 @@ body{
   background-color: var(--main-colour);
   color: var(--text1);
   font-family: var(--font-main);
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #title{
@@ -20,11 +22,11 @@ body{
 }
 
 .card{
-  background-color: #B4CDED;
-  color: var(--text2);
+  background-color: var(--secondary-colour);
+  color: var(--text1);
   flex: 1 0 500px;
   box-sizing: border-box;
-  margin: 1rem .25rem;
+  margin: 1rem .1rem;
   border-radius: 2%;
 }
 

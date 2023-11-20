@@ -1,12 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap');
 
 :root{
-    --main-colour: #3A0CA3;
-    /*--secondary-colour: #7209B7;*/
-    --secondary-colour: #B4CDED;
-    --highlight-colour: #F72585;
+    --main-colour: #34495E;        
+    --secondary-colour: #2C3E50;     
+    --accent-colour: #33A1FD;     
+    --highlight-colour: #FAC748;    
+    
+
+    
     --text1: #ffffff;
     --text2: #000000;
     --font-main: Poppins;
     --font-title: Agbalumo;
 }
+
+/*      #9BC4CB#33A1FD
+        --main-colour: #34495E;          /* Dark slate blue 
+        --secondary-colour: #2C3E50;     /* Dark slate blue (slightly lighter) 
+        --accent-colour: #FFFFFF;        /* White 
+        --highlight-colour: #2980B9;      Medium blue 
+
+    --main-colour: #A9CCE3;          Light ocean blue 
+    --secondary-colour: #7FB3D5;     Light cerulean blue 
+    --highlight-colour: #2980B9;     Medium blue 
+    
+
+        --main-colour: #283747;         Dark navy blue 
+        --secondary-colour: #212F3C;    Dark blue-black 
+        --highlight-colour: #F39C12;    Bright orange 
+
+
+#3A0CA3
+#B4CDED
+#F72585
+
+    --main-colour: #A8577E;
+    --secondary-colour: #F5D7E3;
+    --highlight-colour: #AA7DCE;
+
+    --main-colour: #2C3E50;
+    --secondary-colour: #3498DB;
+    --highlight-colour: #E74C3C;
+
+    --main-colour: #2C3E50;        
+     --secondary-colour: #3498DB;   
+    --highlight-colour: #E74C3C;   
+
+    --main-colour: #283747;
+    --secondary-colour: #27AE60;  
+    --highlight-colour: #F39C12;   
+
+    --main-colour: #34495E;        
+    --secondary-colour: #9B59B6;   
+    --highlight-colour: #E67E22;   
+
+
+Professional & Modern:
+
+Primary: #2C3E50 (Dark Blue)
+Secondary: #3498DB (Blue)
+Accent: #E74C3C (Red)
+Clean & Minimalistic:
+
+Primary: #FFFFFF (White)
+Secondary: #444444 (Dark Gray)
+Accent: #27AE60 (Green)
+Creative & Vibrant:
+
+Primary: #1ABC9C (Turquoise)
+Secondary: #F39C12 (Orange)
+Accent: #9B59B6 (Purple)
+Sophisticated & Elegant:
+
+Primary: #34495E (Dark Grayish Blue)
+Secondary: #95A5A6 (Light Gray)
+Accent: #D35400 (Orange)
+*/
